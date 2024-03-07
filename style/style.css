@@ -82,18 +82,27 @@ button:hover{
 .li-header-navigation li{
     margin: auto;
     margin-bottom: 10px;
-    font-weight: bold;
+   font-weight: bold;
+   text-align: center;
 }
 .li-header-navigation li:hover{
-    color: #f54d05;
+    background-color: #f54d05;
+    height: 25px;
+    width: 100px;
+    color: white;
+    transition: all 0.5s;
 }
 a{
     text-decoration: none;
 }
 /* Apres avoir visté un lien*/
 a:visited{
-    color:#f54d05;
+    color:black;
 }
+.a:visited:hover{
+    color:white;
+}
+
 
 /*mise en forme du footer*/
 footer{
