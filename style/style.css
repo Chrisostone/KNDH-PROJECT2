@@ -99,8 +99,11 @@ a{
 a:visited{
     color:black;
 }
-.a:visited:hover{
+a:visited:hover{
     color:white;
+}
+.a:visited:hover{
+    color: #f54d05;
 }
 
 
