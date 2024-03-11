@@ -1,9 +1,11 @@
-/*body{
-    background-image: url(../image/image3.jpg);
-}*/
+
 .image-accueil{
     height: 1000px;
     width: 1519px;
+}
+.img{
+    height:500px ;
+    width: 500px;
 }
 .container{
     width: 100%;
@@ -40,4 +42,82 @@
 .articles{
     text-align: center;
     font-size: 30px;
+    background-color: #ffb08f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.scroller{
+    display: flex;
+}
+.div-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect-container{
+    background: linear-gradient(rgba(255, 85, 0, 0.922),rgba(255, 255, 255, 0.303) );
+    width: 1600px;
+    height: 1500px;
+    display: block;
+    align-self: center;
+    
+}
+.sect-image-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+.sect-image-slide p{
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+}
+.img2{
+    height: 350px;
+    width: 350px;
+}
+.div-img2{
+   margin: auto;
+   border: 2px solid;
+   border-color: black;
+   padding: 10px;
+   transition: all 1s;
+   background-color: white;
+
+}
+.div-img2:hover{
+    background-color: #f54d05;
+    color: white;
+    border: white solid;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.btn-section input{
+font-size: 25px;
+background-color: #f54d05;
+border-radius: 10px;
+}
+.btn-section input:hover{
+    background-color: #fd6e31;
+    color: white;
+    border:white solid;
+}
+.div-promo{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-promo{
+    height: 150px;
+    width: 150px;
 }
