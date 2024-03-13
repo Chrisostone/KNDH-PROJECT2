@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../style/style-accueil.css">
@@ -10,7 +12,6 @@
     <title>accueil</title>
 </head>
 <body>
-    <!-- c'est un commentaire -->
     <header>
         <nav id="contenant1">
             <div>
@@ -18,13 +19,17 @@
              </div>
              <div>
                 <form action="">
-                    <input type="text" placeholder="Recherche...">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Recherche..." class="input">
+                    <button type="submit">
+                        <span class="material-icons">
+                        search
+                        </span>
+                    </button>
                 </form>
              </div>
             <div>
                 <ul>
-                    <li class="a">Se Connecter <img src="../image/conexion.png" alt="" class="image-header"></li>
+                    <li><a href="../html/compte.html" class="a">Se Connecter</a> <img src="../image/conexion.png" alt="" class="image-header"></li>
                     <li>
                         <a href="../html/favoris.html" class="a">Favoris</a>
                         <a href="../html/favoris.html"><img src="../image/favoris.png" alt="favoris" class="image-header"></a>
@@ -35,99 +40,53 @@
         </nav>
         <div>
             <ul class="li-header-navigation">
-                <li><a href="../html/accueil.html">Accueil</a></li>
-                <li>Categories</li>
-                <li>Promotion</li>
-                <li>Aide</li>
+                <li>
+                    <span class="material-icons">
+                        home
+                    </span>
+                    <a href="../html/accueil.html">Accueil</a>
+                </li>
+                <li class="block">
+                    <span class="material-icons">
+                        category
+                    </span>
+                    Categories
+                    <ul class="li-deroulant">
+                        <li>Hommes</li>
+                        <li>Femmes</li>
+                        <li>Accessoires</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        redeem
+                    </span>
+                    Promotion
+                </li>
+                <li>
+                    <span class="material-icons">
+                        info
+                    </span>
+                    <a href="../html/contact.html">Aide</a>
+                </li>
             </ul>
         </div>
     </header>
     <main>
-        <h1>Remplissez le formulaire de vos coordonnées</h1>
-
-        <form action="#">
-
-           <div>
-               <div classe="div1">
-                    <label for="Prenom"> Prénom
-                    </label>
-                    <input type="text"
-                    name="Prenom" id="Prenom"
-                   placeholde=""/>
-
-                    <label for="Domicile"> Domicile
-                    </label>
-                    <input type="text"
-                    name="Domicile" id="Domicile"
-                       placeholder=""/>
-
-                    <label for="Pays"> Pays
-                    </label>
-                     <input type="text"
-                    name="Pays" id="Pays"
-                    placeholder=""/>
-
-               </div>
-
-                <div class="div2">
-
-                   <label for="Nom de famille"> Nom de famille
-                    </label>
-                    <input type="text"
-                    name="Nom de famille" id="Nom de famille"
-                    placeholder=""/>
-
-                    <label for="Code postal"> Code postal
-                     </label>
-                    <input type="text"
-                    name="Code postal" id="Code postal"
-                    placeholder=""/>
-
-                     <label for="Poste Souhaite"> Poste Souhaité
-                    </label>
-                   <input type="text"
-                   name="Poste Souhaite" id="Poste Souhaite"
-                    placeholder=""/>
-               </div>
-
-               <div class="div3">
-
-                   <label for="Adresse couriel"> Adresse couriel
-                   </label>
-                   <input type="text"
-                   name="Adresse couriel" id="Adresse couriel"
-                   placeholder=""/>
-
-                   <label for="Ville"> Ville
-
-                   </label>
-                   <input type="text"
-                   name="Ville" id="Ville"
-                   placeholder=""/>
-                   <a href="C:\Users\plabu\Downloads\E COMMERCE PROJET.html\
-           receptionformulaire.html" target="_blank">Téléverser votre doc ici</a>
-           
-               </div>
-
-               <div class="div4">
-                   <label for="Numero de telephone"> Numero de téléphone
-                   </label>
-                   <input type="text"
-                   name="Numero de telephone" id="Numero de telephone"
-                   placeholder=""/>
-
-                   <label for="Province" class="selection"> Province
-                   </label>
-                   <input type="text" name="Province" id="Province">
-               
-               </div>
-
-               <div class="button"><button type="submit">Soumettre</button></button></div>
-           </div>
-
-
-
-       </form>
+        <div class="container">
+            <div class="content">
+                    <img src="../image/image2.jpg" alt="" class="image-accueil">
+                    <div class="text">
+                        <p class="text1">Bienvenue sur notre site</p>
+                        <p class="text2">votre destination ultime pour une mode inspirante et de qualité. Fondée en fevrier 2024, notre mission est de vous apporter les dernières tendances et classiques intemporels du monde de la mode, directement à votre porte. Avec une passion pour l'excellence et un œil attentif sur les détails, nous sélectionnons minutieusement chaque pièce pour garantir qu'elle répond à nos standards élevés de qualité, de style, et de durabilité.</p>
+                        <marquee behavior="scroll" direction="left" class="text1">
+                            KNDH-CANADA.CA<img src="../image/homme.png" alt="homme"
+                            .>
+                        </marquee>
+                    </div>
+            </div>
+        </div>
+       <div class="articles"><p>NOS ARTICLES SONT ACTUELLEMENT DISPONIBLES !!!</p></div>
     </main>
 </body>
 
@@ -138,12 +97,12 @@
                 <li class="gras-footer">Compte</li>
                 <li>Etat de la commande</li>
                 <li>Gestion de compte</li>
-                <li> Centre de préference</li>
+                <li><a href="https://github.com/Chrisostone/KNDH-PROJECT2.git" class="a">Github</a></li>
             </ul>
         </div>
         <div class="text-au-centre">
             <ul class="li-footer">
-                <li class="gras-footer">A propos de nous</li>
+                <li class="gras-footer"><a href="../html/a-propos.html">A propos de nous</a></li>
                 <li>Postulez ici</li>
                 <li>Contact: +1854-346-878</li>
                 <li>Mail: KNDH@GMAIL.COM</li>

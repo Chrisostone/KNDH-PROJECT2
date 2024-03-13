@@ -6,9 +6,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/style-favoris.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Favoris</title>
+    <link href="../style/compte.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <title>KNDH-Compte</title>
 </head>
 <body>
     <header>
@@ -40,10 +45,10 @@
         <div>
             <ul class="li-header-navigation">
                 <li>
-                     <span class="material-icons">
+                    <span class="material-icons">
                         home
                     </span>
-                    <a href="../html/accueil.html">Accueil </a>
+                    <a href="../html/accueil.html">Accueil</a>
                 </li>
                 <li class="block">
                     <span class="material-icons">
@@ -71,17 +76,41 @@
             </ul>
         </div>
     </header>
-    <main>
-        <div class="div-directeur">
-            <h1>Mes Favoris (0)</h1>
-            <h2>ENREGISTREZ VOS ARTICLES PREFÉRÉES</h2>
-            <p>Vous souhaitez enregistrer les articles que vous aimez? Il vous suffit de</p>
-            <p>cliquer sur le symbole en forme de cœur de l'article et il s'affichera ici.</p>
-            <a href="../html/accueil.html" class="button-a"><div class="div-button" >Magasinez maintenant</div></a>
-        </div>
-    </main>
+   
 </body>
-
+<main class="compte">
+    <section class="section-compte">
+        <h1>Ouvrir une session</h1>
+        <form method="get" action="" class="formulaire">
+            <div class="form-email-password">
+                <div class="form-column">
+                    <label for="email">Email</label>
+                    <input type="e-mail" name="email" id="email">
+                </div>
+                <div class="form-column">
+                    <label for="password">Mot de passe</label>
+                    <input type="text" name="password" id="password">
+                </div>
+                <div>
+                    <input type="checkbox" name="souvenir" id="souvenir">
+                    <label for="souvenir">Se souvenir de moi</label>
+                </div>
+            </div>
+            <div>
+               <input type="submit" value="Connexion" class="cta">
+               <a href="new_password.html" class="mpt"><em>Mot de passe oublié?</em></a>
+            </div>
+        </form>
+    </section>
+    <section>
+       <div>
+           <p >
+              Vous n'avez pas de compte?
+           </p>
+          <a href="new_compte.html" class="color">Créer votre compte ici</a>
+      </div>
+    </section>
+</main>
 <footer>
     <div id="contenant">
         <div id="group-compte">
@@ -103,9 +132,11 @@
         <div class="text-a-droite">
         <div class="gras-footer"> Rejoingnez nous</div>
             <div class="style-image-footer">
-                <a href="#"><img src="../image/facebook.png" alt="facebook" class="image-footer"></a>
-                <a href="#"><img src="../image/twitter.png" alt="twitter"   class="image-footer"></a>
-                <a href="#"> <img src="../image/instagram.png" alt="instagram" class="image-footer"></a>
+                <div class="style-image-footer">
+                    <a href="#"><img src="../image/facebook.png" alt="facebook" class="image-footer"></a>
+                    <a href="#"><img src="../image/twitter.png" alt="twitter"   class="image-footer"></a>
+                    <a href="#"> <img src="../image/instagram.png" alt="instagram" class="image-footer"></a>
+                </div>
             </div>
         </div>
     </div>
