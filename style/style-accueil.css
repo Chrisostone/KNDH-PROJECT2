@@ -5,7 +5,7 @@
 }
 .img{
     height:500px ;
-    width: 500px;
+    width: 400px;
 }
 .container{
     width: 100%;
@@ -57,7 +57,7 @@
 }
 .sect-container{
     background: linear-gradient(rgba(255, 85, 0, 0.922),rgba(255, 255, 255, 0.303) );
-    width: 1600px;
+    width: 1518px;
     height: 1500px;
     display: block;
     align-self: center;
