@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="C:\Users\plabu\KNDH-PROJECT2\style\page2.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../style/style-accueil.css">
-    <link rel="stylesheet" href="formulaire.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Madimi+One&display=swap" rel="stylesheet">
-   
+    <link href="../style/a-propos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
     <title>Formulaire2</title>
 </head>
 <body>
-   
     <header>
         <nav id="contenant1">
             <div>
                 <img src="../image/Logo Projet1.png" alt="" class="logo">
              </div>
              <div>
+                <!-- class="input"-->
                 <form action="">
-                    <input type="text" class="fourmi" placeholder="Recherche...">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Recherche..."  class="fourmi">
+                    <button type="submit">
+                        <span class="material-icons">
+                        search
+                        </span>
+                    </button>
                 </form>
              </div>
             <div>
                 <ul>
-                    <li class="a">Se Connecter <img src="../image/conexion.png" alt="" class="image-header"></li>
+                    <li><a href="../html/compte.html" class="a">Se Connecter</a> <img src="../image/conexion.png" alt="" class="image-header"></li>
                     <li>
                         <a href="../html/favoris.html" class="a">Favoris</a>
                         <a href="../html/favoris.html"><img src="../image/favoris.png" alt="favoris" class="image-header"></a>
@@ -37,10 +45,35 @@
         </nav>
         <div>
             <ul class="li-header-navigation">
-                <li><a href="../html/accueil.html">Accueil</a></li>
-                <li>Categories</li>
-                <li>Promotion</li>
-                <li>Aide</li>
+                <li>
+                    <span class="material-icons">
+                        home
+                    </span>
+                    <a href="../html/accueil.html">Accueil</a>
+                </li>
+                <li class="block">
+                    <span class="material-icons">
+                        category
+                    </span>
+                    Categories
+                    <ul class="li-deroulant">
+                        <li>Hommes</li>
+                        <li>Femmes</li>
+                        <li>Accessoires</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        redeem
+                    </span>
+                    Promotion
+                </li>
+                <li>
+                    <span class="material-icons">
+                        info
+                    </span>
+                    <a href="../html/contact.html">Aide</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -65,7 +98,6 @@
 
     </main>
 </body>
-
 <footer>
     <div id="contenant">
         <div id="group-compte">
@@ -73,12 +105,12 @@
                 <li class="gras-footer">Compte</li>
                 <li>Etat de la commande</li>
                 <li>Gestion de compte</li>
-                <li> Centre de préference</li>
+                <li><a href="https://github.com/Chrisostone/KNDH-PROJECT2.git" class="a">Github</a></li>
             </ul>
         </div>
         <div class="text-au-centre">
             <ul class="li-footer">
-                <li class="gras-footer">A propos de nous</li>
+                <li class="gras-footer"><a href="../html/a-propos.html">A propos de nous</a></li>
                 <li>Postulez ici</li>
                 <li>Contact: +1854-346-878</li>
                 <li>Mail: KNDH@GMAIL.COM</li>
