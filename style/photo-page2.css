@@ -1,7 +1,5 @@
-/*Importer des styles personnalises depuis google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parisienne&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
-                         
-/*FICHIER CSS POUR LA BARRE DE NAVIGATION ET DU FOOTER*/
+
+                                /*FICHIER CSS POUR LA BARRE DE NAVIGATION ET DU FOOTER*/
 
 
 /*permettre au footer de rester en bas de la page*/
@@ -33,7 +31,12 @@ padding: 6px;
 margin-top: 20px;
 font-size: 18px;
 }
+.rangement{
+    margin-top: 22px;
+    width: 200px;
+height: 25px;
 
+}
 .numero1{
     padding: 6px 10px;
     margin-top: 20.9px;
@@ -132,18 +135,110 @@ a:visited:hover{
     display: block;
 }
 /* Css du main de la page photo1>*/
-.img1, .img3, .img4, .img6{
+
+.sefixer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 180px;
+}
+.blockdeparagraphe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 105px;
+    margin-left: 180px;
+    
+
+}
+.paragraphe7{
+    margin-right: 40px;
+}
+.blockdeinpu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 105px;
+
+}
+
+.blockbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+
+}
+.Ph1, .Ph2{
+    width: 350px;
+    height: 450px;
+
+    margin-left: 10px;
+    margin-right: 105px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+
+}
+.Ph1{
+    padding-right: 50px;
+    padding-left: 15px;
+    
+}
+
+
+/*.paragraphe7, .paragraphe8{
+    margin-left: 170px; 
+}*/
+
+.inpu6{
+    /*margin-left: 22%;
+   
+    
+    margin-top: 0px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;*/
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding-bottom:15px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+
+}
+
+
+.inpu7{
+    margin-left: 62%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    padding-bottom:15px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+}
+.Ph4, .Ph6{
+    
     width: 250px;
     height: 400px;
-    margin-left: 110px;
-    margin-right: 45px;
+    margin-left: 130px;
+    margin-right: 75px;
     margin-top: 20px;
 }
+
     
-.img2, .img5{
+.Ph5{
     padding-left: 15px;
-   
-    width: 300px;
+    width: 250px;
     height: 400px;
     margin-bottom: 20px;
     margin-left: 150px;
@@ -151,27 +246,12 @@ a:visited:hover{
   
 }
 
-.paragraphe3, .paragraphe4, .paragraphe5, .paragraphe6 {
+.paragraphe11, .paragraphe12{
     text-align: center;
-    font-family: 'Lobster', sans-serif;
+    
 }
-
-.input4{
-    font-family: 'Lobster', sans-serif;
-    margin-left: 42%;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    padding: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom:15px ;
-    background-color: orangered;
-    border-radius: 8px 8px 8px 8px ;
-    font-weight: bold;
-
-}
-.input5{
-    font-family: 'Lobster', sans-serif;
+.inpu8{
+    
     margin-left: 42%;
     padding-bottom:25px ;
     padding: 5px;
@@ -184,7 +264,21 @@ a:visited:hover{
 }
 
 
-.aime, .aimer{
+.aime, .AIME{
+    background: none;
+    border:#ECD9D1; ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    transition: color 0.3;
+    margin-right: 105px;
+    margin-left: 0px;
+}
+.aimer{
     background: none;
     border:#ECD9D1; ;
     color: white;
@@ -195,6 +289,8 @@ a:visited:hover{
     margin-bottom: 10px;
     position: relative;
     transition: color 0.3;
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .aime::before  {
@@ -203,6 +299,14 @@ a:visited:hover{
 
   }
   .aime:active{
+    color:black
+  }
+  .AIME::before  {
+    content: "\2665";
+    font-size: 50px;
+
+  }
+  .AIME:active{
     color:black
   }
 
@@ -252,22 +356,7 @@ footer{
     margin: auto;
 }
 .kndh{
+    text-align: center;
     font: italic;
     font-size: 10px;
-}
-
-/* REactivite de la page */
-@media screen and (max-width: 576px) {
-    .about-plants {
-        flex-direction: column;
-        justify-content: space-between;
-        font-weight: 500;
-    }
-
-    .about-plants>div {
-        width: 90%;
-        /* text-align: center; */
-        margin: 0 auto
-    }
-
 }

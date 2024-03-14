@@ -1,7 +1,10 @@
 /*Importer des styles personnalises depuis google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parisienne&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
-    
-/*mise en forme du header*/
+                         
+/*FICHIER CSS POUR LA BARRE DE NAVIGATION ET DU FOOTER*/
+
+
+/*permettre au footer de rester en bas de la page*/
 body{
     background-color: #c3b2ab;
     margin: 0;
@@ -30,8 +33,14 @@ padding: 6px;
 margin-top: 20px;
 font-size: 18px;
 }
+.rangement{
+    margin-top: 22px;
+    width: 200px;
+height: 25px;
 
-.button1{
+}
+
+.numero1{
     padding: 6px 10px;
     margin-top: 20.9px;
     cursor: pointer;
@@ -47,7 +56,7 @@ font-size: 18px;
     font-size: 22px;
 }
 
-.button1:hover{
+.numero1 :hover{
     background-color: #fd6e31;
 }
 
@@ -128,87 +137,103 @@ a:visited:hover{
 .block:hover .li-deroulant{
     display: block;
 }
-
-h1{
-    text-align: center;/*mettre le texte au centre*/
-    font-size: 30px;
-    margin-top: 3%;
-    margin-bottom: 4%;
-}
-
-h1 {
-        font-family: 'Lobster', sans-serif;
-        font-weight: 400;
-        font-style: normal;
-  }
-  
- .div1, .div2, .div3, .div4 {
-    font-family: 'Lobster', sans-serif;
-        margin-top: 20px;/*marge entre le boutton et les autres elements du formulaire*/
-        margin-left: 315px; 
-        margin-right: 250px;   
-        padding: 5px;
-        width:20; /* largeur */
-        
- }
- 
-
- label{
-    position: absolute;/*pour mettre les etiquettes sur les inputs*/
-    
-    margin-top: -4px;/*la marge entre les etiquettes et les inputs*/
+/* Css du main de la page photo1>*/
+.img1, .img3, .img4, .img6{
+    width: 250px;
+    height: 400px;
+    margin-left: 110px;
+    margin-right: 45px;
+    margin-top: 20px;
     margin-bottom: 10px;
-
-
 }
-
-input{
-    width:170px;
-    height:20px;
-    margin-top:15px ;/*pour pas que les etiquettes se retrouve dans les inputs*/
-    margin-right: 40px;/*distance entre les inputs*/
-    margin-bottom: 5px;/*marge partant du bas */
-    border: none;
-
-
-}
- 
- a{
-     text-decoration: none;
-     color: #F54D0C;
-     font-weight:bold;
-     font-size: large;
- }
-
- a:hover{
-     color: #9c5b3f;/*la couleur de la ligne*/
-     text-decoration: underline;/*une ligne s'affiche lorsque je me pointe sur le lien*/
- }
-
     
-     
- .div5 {
-    padding: 5px 5px;
-    cursor: pointer;
-   
-   
+.img5{
+    width: 300px;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+  
+}
+.img2{
+    
+    width: 300px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 45px;
 
+
+}
+
+.paragraphe3, .paragraphe4, .paragraphe5, .paragraphe6 {
+    text-align: center;
     font-family: 'Lobster', sans-serif;
-    margin-top: 25px;
-    margin-bottom: 65px;
-    margin-right: 600px;
-   
-    float: right;
-    font-weight:bold;
-     background-color: #F54D0C;
-     border: none;
-     border-radius: 6px 6px 6px 6px ;/*donner un aspect arrondi*/
-   /*box-shadow: 6px 6px 8px rgb(80, 80, 80) ;effet ombrE. mettre de l'ombre*/
+}
+
+.input4{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 42%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom:15px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+
+}
+.input5{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 42%;
+    padding-bottom:25px ;
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom:5px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+}
 
 
- }
- /*mise en forme du footer*/
+.aime, .aimer{
+    background: none;
+    border:#ECD9D1; ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: color 0.3;
+}
 
+.aime::before  {
+    content: "\2665";
+    font-size: 50px;
+
+  }
+  .aime:active{
+    color:black
+  }
+
+      
+  .aimer::before  {
+        content: "\2665";
+        font-size: 50px;
+
+      }
+      .aimer:active{
+        color:black
+      }
+
+
+
+/*mise en forme du footer*/
 footer{
     background-color:#ecd9d1;
    margin-top: auto;
@@ -219,6 +244,9 @@ footer{
 }
 .gras-footer{
     font-weight: bold;
+    color: #f54d05;
+}
+.gras-footer a:visited{
     color: #f54d05;
 }
 .image-footer{
@@ -239,23 +267,8 @@ footer{
     margin: auto;
 }
 .kndh{
+    text-align: center;
     font: italic;
     font-size: 10px;
 }
- 
 
-/* REactivite de la page */
-@media screen and (max-width: 576px) {
-    .about-plants {
-        flex-direction: column;
-        justify-content: space-between;
-        font-weight: 500;
-    }
-
-    .about-plants>div {
-        width: 90%;
-        /* text-align: center; */
-        margin: 0 auto
-    }
-
-}
