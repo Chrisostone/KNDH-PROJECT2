@@ -66,7 +66,7 @@ height: 25px;
     font-size: 20px;
 }
 #contenant1 div ul li{
-    font-family: 'Lobster', sans-serif;
+
     font-weight: bold;
 }
 
@@ -82,7 +82,6 @@ height: 25px;
 }
 
 .li-header-navigation{
-    font-family: 'Lobster', sans-serif;
     font-style: normal;
     display: flex;
     list-style: none;
@@ -91,7 +90,7 @@ height: 25px;
     
 }
 .li-header-navigation li{
-    font-family: 'Lobster', sans-serif;
+  
     font-style: normal;
     margin: auto;
     margin-bottom: 10px;
@@ -121,7 +120,6 @@ a:visited:hover{
     color: #f54d05;
 }
 .li-deroulant{
-    font-family: 'Lobster', sans-serif;
     display:none ;
     position: absolute;
     text-align: left;
@@ -148,7 +146,7 @@ h1{
 }
 
 h1 {
-    font-family: "Protest Riot", sans-serif;
+    font-family: 'Lobster', sans-serif;
         
         font-weight:300px;
         font-style: normal;
@@ -159,7 +157,7 @@ h1 {
         
         /*font-weight: 400;
         font-style: normal*/
-        font-family: "Protest Riot", sans-serif;
+        font-family: 'Lobster', sans-serif;
         font-style: normal;
         margin-top: 20px;/*marge entre le boutton et les autres elements du formulaire*/
         margin-left: 315px; 
@@ -221,7 +219,7 @@ h1 {
  .div5 {
     padding: 5px 5px;
     cursor: pointer;
-    font-family: "Protest Riot", sans-serif;
+    font-family: 'Lobster', sans-serif;
     font-style: normal;
     margin-top: 25px;
     margin-bottom: 65px;
@@ -247,7 +245,7 @@ footer{
     list-style: none;
 }
 .gras-footer{
-    font-family: "Protest Riot", sans-serif;
+
         font-style: normal;
     font-weight: bold;
     color: #f54d05;
@@ -259,7 +257,7 @@ footer{
 
 
 #contenant{
-    font-family: "Protest Riot", sans-serif;
+
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -273,7 +271,6 @@ footer{
 }
 .kndh{
     
-        font-family: "Protest Riot", sans-serif;
         font-style: normal;
     text-align: center;
     margin-left: 45px;
