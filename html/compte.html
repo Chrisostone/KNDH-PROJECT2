@@ -24,7 +24,7 @@
              <div>
                 <form action="">
                     <input type="text" placeholder="Recherche..." class="input">
-                    <button type="submit">
+                    <button type="submit" class="button">
                         <span class="material-icons">
                         search
                         </span>
@@ -56,9 +56,15 @@
                     </span>
                     Categories
                     <ul class="li-deroulant">
-                        <li>Hommes</li>
-                        <li>Femmes</li>
-                        <li>Accessoires</li>
+                        <li>
+                            <a href="../html/Pagephoto2.html"> Hommes</a>
+                        </li>
+                        <li>
+                          <a href="../html/Pagephoto1.html">Femmes</a>
+                        </li>
+                        <li>
+                           <a href="../html/accessoire.html"> Accessoires</a>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -76,41 +82,42 @@
             </ul>
         </div>
     </header>
-   
-</body>
-<main class="compte">
-    <section class="section-compte">
-        <h1>Ouvrir une session</h1>
-        <form method="get" action="" class="formulaire">
-            <div class="form-email-password">
-                <div class="form-column">
-                    <label for="email">Email</label>
-                    <input type="e-mail" name="email" id="email">
-                </div>
-                <div class="form-column">
-                    <label for="password">Mot de passe</label>
-                    <input type="text" name="password" id="password">
+    <main class="compte">
+        <section class="section-compte">
+            <h1>Ouvrir une session</h1>
+            <form method="get" action="" class="formulaire">
+                <div class="form-email-password">
+                    <div class="form-column">
+                        <label for="email">Email</label>
+                        <input type="e-mail" name="email" id="email">
+                    </div>
+                    <div class="form-column">
+                        <label for="password">Mot de passe</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="souvenir" id="souvenir">
+                        <label for="souvenir">Se souvenir de moi</label>
+                    </div>
                 </div>
                 <div>
-                    <input type="checkbox" name="souvenir" id="souvenir">
-                    <label for="souvenir">Se souvenir de moi</label>
+                   <input type="submit" value="Connexion" class="cta">
+                   <a href="new_password.html" class="mpt"><em>Mot de passe oublié?</em></a>
                 </div>
-            </div>
-            <div>
-               <input type="submit" value="Connexion" class="cta">
-               <a href="new_password.html" class="mpt"><em>Mot de passe oublié?</em></a>
-            </div>
-        </form>
-    </section>
-    <section>
-       <div>
-           <p >
-              Vous n'avez pas de compte?
-           </p>
-          <a href="new_compte.html" class="color">Créer votre compte ici</a>
-      </div>
-    </section>
-</main>
+            </form>
+        </section>
+        <section>
+           <div>
+               <p >
+                  Vous n'avez pas de compte?
+               </p>
+              <a href="new_compte.html" class="color">Créer votre compte ici</a>
+          </div>
+        </section>
+    </main>
+   
+</body>
+
 <footer>
     <div id="contenant">
         <div id="group-compte">

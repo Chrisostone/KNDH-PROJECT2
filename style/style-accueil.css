@@ -39,17 +39,6 @@
     height: auto;
     width: 200px;
 }
-.articles{
-    text-align: center;
-    font-size: 30px;
-    background-color: #ffb08f;
-    padding-top: 10px;
-    padding-bottom: 10px;
-   
-}
-.scroller{
-    display: flex;
-}
 .div-sect{
     display: flex;
     justify-content: center;
@@ -63,61 +52,65 @@
     align-self: center;
     
 }
-.sect-image-slide{
+.sect-slide1{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-   
 }
-.sect-image-slide p{
-text-align: center;
-font-size: 25px;
-font-weight: bold;
+.sect-slide2{
+  
+    margin-top: 5%;
 }
-.img2{
+.sect-slide2-div-directeur{
+    display: flex;
+}
+.sect-slide2-div-directeur div{
     height: 350px;
     width: 350px;
-}
-.div-img2{
+   background: white;
    margin: auto;
-   border: 2px solid;
-   border-color: black;
-   padding: 10px;
-   transition: all 1s;
-   background-color: white;
-
+    border: 2px solid;
+    text-align: center;
+    margin-top: 20px;
+    
 }
-.div-img2:hover{
+.sect-slide2-div-directeur div:hover{
     background-color: #f54d05;
     color: white;
-    border: white solid;
-}
 
+}
+.sect-slide2-div-directeur p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.img-slide1{
+    height: 379.5px;
+    width: 379.5px;
+}
+.img-slide2{
+    height: 250px;
+    width: 250px;
+}
 .btn-section{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
 }
-.btn-section input{
-font-size: 25px;
-background-color: #f54d05;
-border-radius: 10px;
-}
-.btn-section input:hover{
-    background-color: #fd6e31;
-    color: white;
-    border:white solid;
-}
-.div-promo{
+.btn-section button{
+    background-color:  #f54d05;
+    padding: 20px;
     font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.img-promo{
-    height: 150px;
-    width: 150px;
+.btn-section button:hover{
+    background-color: #e9875e;
+    color: white;
+    border: 2px #ffffff solid;
+}
+
+.img-scroll{
+    height: 200px;
+    width: 200px;
+}
+.text-scroll{
+    font-size: 50px;
+    margin-top: 5%;
 }
